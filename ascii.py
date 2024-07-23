@@ -1,27 +1,26 @@
-#ascii
-#print(ord('A'))
-#print(ord('A')+3)
-#print(ord('a'))
-#print(ord('0'))
-#print(char(0))
-
+ascii
+print(ord('A'))
+print(ord('A')+3)
+print(ord('a'))
+print(ord('0'))
+print(char(0))
 #check how many vowels are there in string
-#str=['a','e','i','o','u']
-#count=0
-#inp="deepika"
-#for i in inp:
-#      if(i in stvowelr):
-#        count+=1
-#print(count)
+str=['a','e','i','o','u']
+count=0
+inp="deepika"
+for i in inp:
+      if(i in stvowelr):
+        count+=1
+print(count)
 
 #write a program for consonent count
-#str=['a','e','i','o','u']
-#count=0
-#inp="deepika"
-#for i in inp:
-#      if(i not in str):
-#        count+=1
-#print(count)
+str=['a','e','i','o','u']
+count=0
+inp="deepika"
+for i in inp:
+      if(i not in str):
+        count+=1
+print(count)
 
 #write a program to print vowel and consonent
 #vowel="aeiou"

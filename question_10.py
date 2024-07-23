@@ -6,18 +6,18 @@
 #5)suppose to print weak- if length is exact 8
 #6)medium-length is between 8-12
 #7)strong if length is between 12-15  
-#str=int(input())
-#count=0
-#strong=0
-#weak=0
-#a=len(str)
-#if a<=8:
-#    print(weak)
-#else:
-#    print(strong)
-#for i in str:
-#    if i = @ or /:
-#      count+=1
+str=int(input())
+count=0
+strong=0
+weak=0
+a=len(str)
+if a<=8:
+    print(weak)
+else:
+    print(strong)
+for i in str:
+    if i = @ or /:
+      count+=1
 p=input()
 x=len(p)
 if(('@'and'/')in p and x==8 and " "not in p):
